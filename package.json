@@ -1,0 +1,15 @@
+{
+    "type": "module",
+    "dependencies": {
+        "cors": "^2.8.5",
+        "express": "^4.21.2",
+        "playht": "^0.14.0"
+    },
+    "devDependencies": {
+        "vite": "^6.0.7"
+    },
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build"
+    }
+}

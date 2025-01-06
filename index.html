@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text To Speech - App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="image-side">
+
+        </div>
+        <div class="content-side">
+            <h1 class="content-side__title">Speechy</h1>
+            <textarea class="content-side__textarea" name="textarea" id="textarea"
+                placeholder="Enter your text"></textarea>
+            <p class="content-side__text">Enter your text above and hit "Text to Speech" button. You can choose a
+                different voice by selecting an option from the dropdown menu.</p>
+
+            <div class="content-side__block">
+                <h3 class="content-side__block-title">Settings</h3>
+                <div class="content-side__option">
+                    <h4 class="content-side__option-name">Voice</h4>
+                    <div class="content-side__dropdown">
+                        <div class="content-side__dropdown-head">
+                            <h4 class="content-side__dropdown-value">en-US</h4>
+                            <img class="content-side__dropdown-caret" src="./images/caret-down.png" alt="caret">
+                        </div>
+                        <div class="content-side__dropdown-body">
+                            <div class="content-side__dropdown-item">
+                                ua-UA
+                            </div>
+                            <div class="content-side__dropdown-item">
+                                pl-PL
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-side__dropdown">
+                        <div class="content-side__dropdown-head">
+                            <h4 class="content-side__dropdown-value">Albert</h4>
+                            <img class="content-side__dropdown-caret" src="./images/caret-down.png" alt="caret">
+                        </div>
+                        <div class="content-side__dropdown-body">
+                            <div class="content-side__dropdown-item">
+                                John
+                            </div>
+                            <div class="content-side__dropdown-item">
+                                Sarah
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-side__option content-side__option--speed">
+                    <h4 class="content-side__option-name content-side__option-name--speed">Speed</h4>
+                    <div class="content-side__speeds">
+                        <div class="content-side__speeds-item">
+                            <span class="content-side__speeds-value">0.5x</span>
+                        </div>
+                        <div class="content-side__speeds-item">
+                            <span class="content-side__speeds-value">0.75x</span>
+                        </div>
+                        <div class="content-side__speeds-item">
+                            <span class="content-side__speeds-value">1x</span>
+                        </div>
+                        <div class="content-side__speeds-item">
+                            <span class="content-side__speeds-value">1.5x</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-side__option content-side__option--mobile">
+                    <h4 class="content-side__option-name content-side__option-name--speed">Speed</h4>
+                    <div class="content-side__dropdown">
+                        <div class="content-side__dropdown-head">
+                            <h4 class="content-side__dropdown-value">1x</h4>
+                            <img class="content-side__dropdown-caret" src="./images/caret-down.png" alt="caret">
+                        </div>
+                        <div class="content-side__dropdown-body">
+                            <div class="content-side__dropdown-item">
+                                0.5x
+                            </div>
+                            <div class="content-side__dropdown-item">
+                                0.75x
+                            </div>
+                            <div class="content-side__dropdown-item">
+                                1.5x
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <button class="content-side__btn">Text to Speech</button>
+        </div>
+    </div>
+    <script type="module" src="./script.js"></script>
+</body>
+
+</html>
